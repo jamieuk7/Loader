@@ -1,0 +1,139 @@
+body {
+	background-image: url(../images/flowerBg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: red;
+	margin: 0px;
+	top:0;
+	font-family: sans-serif;
+	text-align: center;
+}
+#nav-pc {
+	text-align: center;
+	display: inline-block;
+	background-image: url(../images/WebsiteBanner.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	width: 100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#nav-pc ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px;
+}
+#nav-pc ul {
+	padding-top: 120px;
+	margin: 20px;
+	left: 0;
+	right: 0;
+}
+#nav-pc a {
+	color: darkblue;
+	text-decoration: none;
+	transition: 1s ease;
+}
+#nav-pc a:hover,
+#nav-pc a:active,
+#nav-pc a:focus {
+	color: sandybrown;
+	text-decoration: none;
+}
+.hero-box2 {
+	height: 338px;
+	background-image: url("../images/hero-images.jpg");
+	background-size: cover;
+	margin: 1%;
+	
+}
+.col img {
+	width: 100%;
+	height: auto;
+	display: block;
+	
+}
+
+.col{
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
